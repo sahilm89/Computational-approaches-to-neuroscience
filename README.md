@@ -1,18 +1,20 @@
 # Computational-approaches-to-neuroscience
 
-
-
 This is a jupyter book containing a series of descriptions and codes for a young student of computaitonal neuroscience to quickly gain familiarity with the field. This is based on the lectures and tutorials taken at the Computaitonal Approaches to Memory and Plasticity.
 
 \## Implies phase 2.
 
+## PREFACE
+This book is organized by keeping two things in mind, one the pedagogical flow required to understand computational models from the point of view of a modeller, and the second 
+## INDEX 
 0. Remedials
+    * Introduction to Jupyter notebook and Python
     * Differential equations
     * Dynamical systems - basics
     * Linear Algebra (?) 
     * Simulation basics (Euler's method, integration timesteps, stiff systems, etc.)
   
-1. Modeling a spherial neuron
+1. Neuron as a spherial elephant
     * Integrate and fire (IF neuron)
     * Leaky integrate and fire (LIF neuron)
     * Conductance model
@@ -20,13 +22,14 @@ This is a jupyter book containing a series of descriptions and codes for a young
     * Abstract Neuron models
       * FHN, Izikevich, etc.
 
-2. Give me 4 parameters and I will make it wiggle its tail
+2. With 5 parameters, I can make it wiggle its trunk
     * Isopotential neurons - recap
     * Rall's law
     * D-lambda rule
-    * Simulating passive neurons with beuautiful morphologies
+    * Simulating passive neurons with beautiful morphologies
+        * Downloading morphology files from various databases.
     * Ion channel distributions
-      * Can be split later to its own chapter, to look at simulation of active dendrites.
+      * Can be split later to its own chapter, for instance, to simulate active dendrites.
   
 3. At the end of the day, it's all chemistry
     * Simulating chemical reaction networks
@@ -48,7 +51,7 @@ This is a jupyter book containing a series of descriptions and codes for a young
     * Add chemistry and use adapaters to couple the chemistry to electrical dynamics.
     * Wiggly spines (Structural plasticity)
     * Simulating a detailed model
-    * More stuff to come here from CAMP 2019 ? ##
+    * Structural plasticity (More stuff to come here, perhaps from CAMP 2019?) ##
 
 5. Networks
     * Feedforward Networks
