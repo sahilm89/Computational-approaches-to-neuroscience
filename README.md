@@ -75,6 +75,7 @@ This book is organized by keeping two things in mind, one the pedagogical flow r
 
 6. Learning in neuronal networks
     * Perceptron Learning Rule
+    * XOR Problem
     * Hopfield Networks (# Could also be in Networks module)
     * Backpropagation
       * Algorithm
