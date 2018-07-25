@@ -35,12 +35,12 @@ This book is organized by keeping two things in mind, one the pedagogical flow r
 3. At the end of the day, it's all chemistry
     1. Simulating chemical reaction networks
     2. Let's fast forward to the end, shall we? (No dynamics, just the steady states)
-      * Bistable systems
+        1. Bistable systems
     3. I like to move it, move it (Dynamics)
-      * Bistable systems
-      * Oscillators
+        1. Bistable systems
+        2. Oscillators
     4. I need some space (diffusion)
-      * Turing model
+        1. Turing model
     5. How many particles, again? (Stochastic simulation)
     6. All in ( Single particle tracking simulations)
     7. Multi-compartment models ##
@@ -82,10 +82,10 @@ This book is organized by keeping two things in mind, one the pedagogical flow r
         1. Algorithm
         2. Problems with biological implementation
     5. Spiking neural networks that learn
-      1. Echo state networks
-      2. Sophie Deneve's model
-      3. FORCE
-      4. FOLLOW
+        1. Echo state networks
+        2. Sophie Deneve's model
+        3. FORCE
+        4. FOLLOW
     6. Reinforcement Learning
   
 7. Systems and Behavior
