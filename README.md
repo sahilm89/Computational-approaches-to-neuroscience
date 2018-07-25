@@ -6,13 +6,14 @@ This is a jupyter book containing a series of descriptions and codes for a young
 
 ## PREFACE
 This book is organized by keeping two things in mind, one the pedagogical flow required to understand computational models from the point of view of a modeller, and the second 
+
 ## INDEX 
 0. Remedials
-    * Introduction to Jupyter notebook and Python
-    * Differential equations
-    * Dynamical systems - basics
-    * Linear Algebra (?) 
-    * Simulation basics (Euler's method, integration timesteps, stiff systems, etc.)
+    1 Introduction to Jupyter notebook and Python
+    2 Differential equations
+    3 Dynamical systems - basics
+    4 Linear Algebra (?) 
+    5 Simulation basics (Euler's method, integration timesteps, stiff systems, etc.)
   
 1. Neuron as a spherial elephant
     * Integrate and fire (IF neuron)
