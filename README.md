@@ -1,12 +1,16 @@
 # Computational-approaches-to-neuroscience
 
-This is a jupyter book containing a series of descriptions and codes for a young student of computaitonal neuroscience to quickly gain familiarity with the field. This is based on the lectures and tutorials taken at the Computaitonal Approaches to Memory and Plasticity.
-
-\## Implies phase 2.
-
 ## PREFACE
-This book is organized by keeping two things in mind, one the pedagogical flow required to understand computational models from the point of view of a modeller, and the second 
+This is a jupyter book containing concepts and code for a young student of computational neuroscience to understand in a hands-on way fundamental concepts in the field. The basic structure of the book is based on the lectures and tutorials taken at the Computational Approaches to Memory and Plasticity (CAMP) summer school that takes place at National Centre for Biological Science, Bengaluru, India.
 
+After all, surely a field that is based in the computational sciences should be able to utilize all computational resources to impart knowledge, first of which should be the ability to teach theory with code.
+An important aspect of a book is the way it is organized. As much as possible, this book is organized in a way that first covers abstract or "simple" models, and then detail is added to the same model. This is useful in many ways in a book of this form. First, since this is a code-book, the code that is created in previous sections can be reused and built upon. Second, this process of incremental build-up shows both the assumptions made at each step, and the value of adding detail(read variables) to a model. For instance to simulate phenomena that either couldn't be captured with fewer variables, or if variables have biophysical meaning (give examples of each). Third, many times this is chronological and can help understand with history how the field moved forward (XOR problem and multi-layer perceptrons). Last, it helps anchor the previous concepts by applying them immediately. In improvizational theatre, this principle is the basis of creating complex dramatic structures from scratch and is called "Yes, And" or "Accept, and Build".
+
+Lastly, since this is a special kind of book that will be available online, it has been kept modular, i.e. something that can be built upon as a resource, much like a large open source codebase. This implies that we invite book chapters (in the form of Jupyter notebooks) from the community, for topics that could be organized under the umbrella of computational neuroscience, and haven't been covered in this book. Please note that since this is an academic resource, these will only be added to this codebase if the chapter and code is from the authors themselves, from experts in the field, or after a peer-review process. 
+
+------  Perhaps there can be templates on how book chapters can be organized later: Phase 4 ----------------------------
+\pagebreak
+ 
 ## INDEX 
 0. Remedials
     1. Introduction to Jupyter notebook and Python
@@ -43,8 +47,8 @@ This book is organized by keeping two things in mind, one the pedagogical flow r
         1. Turing model
     5. How many particles, again? (Stochastic simulation)
     6. All in ( Single particle tracking simulations)
-    7. Multi-compartment models ##
-    8. Hybrid models ##
+    7. Multi-compartment models (P2)
+    8. Hybrid models (P2)
     9. Plasticity : BCM Curve (Calcineurin, CamKII)
 
 4. Everything is connected (Putting together electrical and chemical dynamics)
@@ -52,13 +56,13 @@ This book is organized by keeping two things in mind, one the pedagogical flow r
     2. Add chemistry and use adapaters to couple the chemistry to electrical dynamics.
     3. Wiggly spines (Structural plasticity)
     4. Simulating a detailed model
-    5. Structural plasticity (More stuff to come here, perhaps from CAMP 2019?) ##
+    5. Structural plasticity (More stuff to come here, perhaps from CAMP 2019?) (P2)
 
 5. Networks
     1. Feedforward Networks
         1. SynFire Chains
         2. Kremkow, Kumar
-        3. Tim Vogels ## 
+        3. Tim Vogels (P2)
     2. Recurrent Networks
         1. Brunel, 2000
         2. Ostojik, 2014
@@ -94,4 +98,4 @@ This book is organized by keeping two things in mind, one the pedagogical flow r
     3. Neural Coding (Rate and Time codes) (# Currently also in networks module)
         1. Golisch and Meister
         2. Receptive Fields
-    4. Sequences and sequence learning (?) ##
+    4. Sequences and sequence learning (?) (P2)
